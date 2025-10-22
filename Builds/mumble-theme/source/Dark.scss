@@ -15,32 +15,31 @@
 // Add your own custom QSS at the end of this file
 
 // Import skin definitions
-@import 'Imports/Dark Definitions';
+@import "Imports/Dark Definitions";
 
 // Import base theme CSS
-@import 'Imports/Base Theme';
-
+@import "Imports/Base Theme";
 
 TransferListWidget {
-	qproperty-downloadingStateForeground: rgb(50,205,50);
-	qproperty-forcedDownloadingStateForeground: rgb(50,205,50);
-	qproperty-downloadingMetadataStateForeground: rgb(50,205,50);
-	qproperty-allocatingStateForeground: rgb(204,204,204);
-	qproperty-stalledDownloadingStateForeground: rgb(204,204,204);
-	qproperty-stalledUploadingStateForeground: rgb(204,204,204);
-	qproperty-uploadingStateForeground: rgb(99,184,255);
-	qproperty-forcedUploadingStateForeground: rgb(99,184,255);
-	qproperty-pausedDownloadingStateForeground: rgb(250,128,144);
-	qproperty-pausedUploadingStateForeground: rgb(79,148,205);
-	qproperty-errorStateForeground: rgb(255, 0, 0);
-	qproperty-missingFilesStateForeground: rgb(255, 0, 0);
-	qproperty-queuedDownloadingStateForeground: rgb(0, 205, 205);
-	qproperty-queuedUploadingStateForeground: rgb(0, 205, 205);
-	qproperty-checkingDownloadingStateForeground: rgb(0, 205, 205);
-	qproperty-checkingUploadingStateForeground: rgb(0, 205, 205);
-	qproperty-checkingResumeDataStateForeground: rgb(0, 205, 205);
-	qproperty-movingStateForeground: rgb(0, 205, 205);
-	qproperty-unknownStateForeground: rgb(255, 0, 0);
+  qproperty-downloadingstateforeground: rgb(76, 195, 138);
+  qproperty-forceddownloadingstateforeground: rgb(76, 195, 138);
+  qproperty-downloadingmetadatastateforeground: rgb(77, 163, 255);
+  qproperty-allocatingstateforeground: rgb(181, 188, 202);
+  qproperty-stalleddownloadingstateforeground: rgb(129, 138, 153);
+  qproperty-stalleduploadingstateforeground: rgb(129, 138, 153);
+  qproperty-uploadingstateforeground: rgb(191, 135, 255);
+  qproperty-forceduploadingstateforeground: rgb(191, 135, 255);
+  qproperty-pauseddownloadingstateforeground: rgb(255, 139, 139);
+  qproperty-pauseduploadingstateforeground: rgb(244, 162, 97);
+  qproperty-errorstateforeground: rgb(255, 92, 92);
+  qproperty-missingfilesstateforeground: rgb(255, 92, 92);
+  qproperty-queueddownloadingstateforeground: rgb(77, 163, 255);
+  qproperty-queueduploadingstateforeground: rgb(77, 163, 255);
+  qproperty-checkingdownloadingstateforeground: rgb(247, 198, 92);
+  qproperty-checkinguploadingstateforeground: rgb(247, 198, 92);
+  qproperty-checkingresumedatastateforeground: rgb(205, 180, 255);
+  qproperty-movingstateforeground: rgb(109, 211, 200);
+  qproperty-unknownstateforeground: rgb(255, 92, 92);
 }
 
 // Add or import your own custom QSS below
